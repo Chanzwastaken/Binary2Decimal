@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary to Decimal calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="Chanz..png">
+        <h1>Binary to Decimal Calculator</h1>
+    </header>
+    <main>
+        <section class="pwned">
+            <h2>Binary to Decimal</h2>
+            <p>Enter a binary code to convert to decimal:</p>
+            <input type="text" id="bin" placeholder="Binary Number (example : 10001)" required>
+            <button onclick="ConvertNumber()">Convert</button>
+            <p id="resultbin"></p>
+        </section>
+        <section class="pwned">
+            <h2>Decimal to Binary</h2>
+            <p>Enter a decimal number to convert to binary:</p>
+            <input type="text" id="dec" placeholder="Decimal Number (example : 17)" required>
+            <button onclick="convertBin()">Convert</button>
+            <p id="resultdec"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Chanz. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
